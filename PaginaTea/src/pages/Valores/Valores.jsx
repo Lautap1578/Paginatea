@@ -5,7 +5,7 @@ const valoresData = [
     {
         letra: 'M',
         titulo: 'Misión',
-        texto: 'Promover una mayor comprensión del autismo dentro de la sociedad, reconociéndolo como parte de la neurodiversidad. Trabajamos para brindar apoyo a las personas autistas y sus familias, favoreciendo su inclusión y contribuyendo a mejorar su calidad de vida.',
+        texto: 'Promover una mayor comprensión del TEA dentro de la sociedad, reconociéndolo como parte de la neurodiversidad. Trabajamos para brindar apoyo a las personas con TEA y sus familias, favoreciendo su inclusión y contribuyendo a mejorar su calidad de vida.',
         destacada: false,
     },
     {
@@ -17,7 +17,7 @@ const valoresData = [
     {
         letra: 'V',
         titulo: 'Visión',
-        texto: 'Construir una sociedad más inclusiva, empática y accesible, donde las personas autistas sean comprendidas, respetadas y cuenten con las oportunidades y apoyos necesarios para desarrollarse plenamente.',
+        texto: 'Construir una sociedad más inclusiva, empática y accesible, donde las personas con TEA sean comprendidas, respetadas y cuenten con las oportunidades y apoyos necesarios para desarrollarse plenamente.',
         destacada: false,
     },
 ]
