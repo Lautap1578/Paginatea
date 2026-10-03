@@ -43,7 +43,7 @@ export default function Conocimiento() {
 
                 <div className='conocimiento-izq'>
                     <p className='nunito-btn-font pretitle-conocimiento'>Datos de la comunidad</p>
-                    <h3 className='nunito-font title-conocimiento'>Nivel de conocimiento sobre el autismo</h3>
+                    <h3 className='nunito-font title-conocimiento'>Nivel de conocimiento sobre el TEA</h3>
                     <p className='lora-font desc-conocimiento'>Los resultados de nuestra encuesta muestran que la mayoría de las personas presentan un nivel de conocimiento bajo o medio sobre la temática, mientras que solo una pequeña proporción manifiesta tener un conocimiento alto o muy alto.</p>
                     <p className='lora-font desc-conocimiento'>Esto evidencia la necesidad de continuar promoviendo acciones de información, capacitación y concientización en la comunidad.</p>   
                 </div>

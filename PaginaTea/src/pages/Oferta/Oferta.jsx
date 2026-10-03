@@ -29,7 +29,7 @@ const contenidoOferta = {
         {
             icono: '💬',
             titulo: 'Charlas informativas',
-            texto: 'Generamos espacios para difundir información y promover una mayor comprensión del autismo.',
+            texto: 'Generamos espacios para difundir información y promover una mayor comprensión del TEA.',
         },
         {
             icono: '🎯',

@@ -116,7 +116,7 @@ export default function Blog() {
                 <span className='blog-icon'>✍️</span>
                 <h1 className='nunito-font blog-title'>Preguntas y respuestas</h1>
                 <p className='lora-font blog-desc'>
-                    ¿Tenés una duda sobre neurodivergencia o autismo? Dejanos tu pregunta y te respondemos por acá.
+                    ¿Tenés una duda sobre neurodivergencia o TEA? Dejanos tu pregunta y te respondemos por acá.
                 </p>
 
                 {errorEnvio && (
