@@ -74,7 +74,14 @@ export default function Eventos() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),
             })
-            const data = await res.json()
+            let data = null
+            try {
+                data = await res.json()
+                } catch {
+                }
+            if (data === null) {
+                 throw new Error('Algo salió mal de nuestro lado. Intentá de nuevo en unos minutos.')
+}
             if (!res.ok) {
                 if (res.status === 429) {
                     throw new Error('Demasiados intentos seguidos. Esperá un poco y volvé a intentar.')

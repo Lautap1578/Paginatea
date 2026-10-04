@@ -19,7 +19,7 @@ python manage.py createsuperuser   # Crear un superusuario
 !!! Tengan instalado python con Django dentro de un venv
 
 Abrir la pagina en http://localhost:5173
-Abrir el panel de admin en http://127.0.0.1:8000/admin
+Abrir el panel de admin en http://127.0.0.1:8000/panel-tea-mo
 
 
 python manage.py runserver 0.0.0.0:8000

@@ -53,6 +53,7 @@ class SuscribirseEventos(generics.CreateAPIView):
             f"Suscripción a eventos: {email} ({'nueva' if creado else 'reactivada'})",
             extra={'categoria': 'suscripcion', 'ip': obtener_ip(request)},
         )
+        return Response({'email': suscriptor.email}, status=status.HTTP_201_CREATED)
 
 class DesuscribirseEventos(generics.GenericAPIView):
     permission_classes = [permissions.AllowAny]

@@ -12,3 +12,6 @@ class SuscriptorSerializer(serializers.ModelSerializer):
     class Meta:
         model = SuscriptorEventos
         fields = ['email']
+        extra_kwargs = {
+            'email': {'validators': []},
+        }
